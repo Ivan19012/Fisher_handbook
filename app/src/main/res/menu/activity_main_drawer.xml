@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_fish"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Рыба" />
+        <item
+            android:id="@+id/id_na"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Наживка" />
+        <item
+            android:id="@+id/id_sna"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Снасти" />
+        <item
+            android:id="@+id/id_pri"
+            android:icon="@android:drawable/btn_star"
+            android:title="Прикормка" />
+    </group>
+    <item android:title="Разное">
+        <menu>
+            <item
+                android:id="@+id/id_history"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="Рыбацкие истории" />
+            <item
+                android:id="@+id/id_advice"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Полезные советы" />
+        </menu>
+    </item>
+</menu>
